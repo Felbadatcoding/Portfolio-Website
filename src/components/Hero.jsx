@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
 
           <div>
-          <h1 className={`mr-10 text-stone-300 font-black uppercase text-right`}>
+          <h1 className={`mr-10 text-stone-300 font-black uppercase text-right font-poppins`}>
             <span style={{ fontSize: '60px'}}>My name?</span>{' '}<br />
             <span
               className="sm:text-battleGray sm:text-[90px] text-eerieBlack text-[50px] felix-color"
