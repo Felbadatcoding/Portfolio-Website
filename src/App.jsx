@@ -18,27 +18,25 @@ const App = () => {
           <Hero />
         </div>
 
-        <div className="bg-cover bg-center bg-no-repeat bg-gradient-to-t from-sky-950 to-black to 80%">
+        <div className="bg-cover bg-center bg-no-repeat bg-gradient-to-t
+         from-sky-950 to-black to 80%">
           <About />
         </div>
-        <div className="bg-cover bg-center bg-no-repeat bg-gradient-to-t from-black to-sky-950 to 80%">
+        <div className="bg-cover bg-center bg-no-repeat bg-gradient-to-t
+         from-blue-950 to-sky-950 to 80%">
         <Projects />
         </div>
-
-        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
+        <div className="bg-tech bg-cover bg-center bg-no-repeat bg-gradient-to-t
+         from-blue-800 to-blue-950 to 80%">
           <Tech />
         </div>
-
         <div
-          className="bg-experience bg-cover bg-center bg-no-repeat 
-            rounded-tl-[150px] rounded-br-[150px]">
-          <div
-            className="bg-experienceLight bg-cover bg-center 
-            bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
+          className="bg-experienceLight bg-cover bg-center bg-no-repeat
+          bg-gradient-to-t from-blue-700 to-blue-800 to 80%">
             <Experience />
-          </div>
         </div>
-        <div className="relative z-0">
+        <div className="relative z-0 bg-experienceLight bg-cover bg-center bg-no-repeat
+          bg-gradient-to-t from-blue-200 to-blue-700 to 80%">
           <Contact />
         </div>
       </div>

@@ -10,7 +10,7 @@ body {
   height: 200px;
   border: 1px solid #CCC;
   margin: 80px;
-  perspective: 400px;
+  perspective: 100px;
 }
 
 .cube {
@@ -19,7 +19,6 @@ body {
   height: 200px;
   position: relative;
   transform-style: preserve-3d;
-  transform: translateZ(-100px);
   transition: transform 1s;
 }
 
@@ -54,6 +53,6 @@ body {
 .cube__face--back   { transform: rotateY(180deg) translateZ(100px); }
 .cube__face--left   { transform: rotateY(-90deg) translateZ(100px); }
 .cube__face--top    { transform: rotateX( 90deg) translateZ(100px); }
-.cube__face--bottom { transform: rotateX(-90deg) translateZ(100px); }
+.cube__face--bottom { transform: rotateX(-90deg) translateZ(100px); } 
 
 label { margin-right: 10px; }

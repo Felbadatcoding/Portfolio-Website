@@ -11,7 +11,7 @@ const Tech = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubTextLight}>My skills</p>
-        <h2 className={styles.sectionHeadTextLight}>Turn the cubes around!</h2>
+        <h2 className={styles.sectionHeadTextLight}>Use your cursor to turn the cubes around!</h2>
       </motion.div>
 
       <div className="flex justify-center mt-36">

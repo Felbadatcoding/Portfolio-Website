@@ -52,8 +52,16 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 import google from './backgrounds/google.png';
+import excel from './tech/excel.png'
+import vsc from './tech/vsc.png'
+import xcode from './tech/xcode.png'
+import imovie from './tech/imovie.png'
 
 export {
+  imovie,
+  vsc,
+  xcode,
+  excel,
   python,
   google,
   bwmap,

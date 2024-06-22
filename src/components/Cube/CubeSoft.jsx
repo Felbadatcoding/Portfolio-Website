@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './Cube.css'
 import Cube from 'react-3d-cube';
-import { python, reactjs, tailwind, javascript, html, css} from '../../assets';
+import { figma, git, excel, vsc, imovie, css, xcode} from '../../assets';
  
 class LogoCubeSoft extends React.Component {
   render() {
@@ -18,50 +18,50 @@ class LogoCubeSoft extends React.Component {
               <div style={{ backgroundColor: "black" }}>
                 <img
                   style={{ width: "280px", height: "277px" }}
-                  src={python}
-                  alt="Python"
+                  src={vsc}
+                  alt="Visual Studio Code"
                 />
-                <p>Pythons</p>
+                <p>Visual Studio Code</p>
               </div>
               <div style={{ backgroundColor: "black" }}>
                 <img
                   style={{ width: "280px", height: "277px" }}
-                  src={tailwind}
-                  alt="Tailwind CSS"
+                  src={git}
+                  alt="GitHub"
                 />
-                <p>Tailwind CSS</p>
+                <p>GitHub</p>
               </div>
               <div style={{ backgroundColor: "black" }}>
                 <img
                   style={{ width: "280px", height: "277px" }}
-                  src={reactjs}
-                  alt="React JS"
+                  src={excel}
+                  alt="Microsoft Excel"
                 />
-                <p>React JS</p>
+                <p>Microsoft Excel</p>
               </div>
               <div style={{ backgroundColor: "black" }}>
                 <img
                   style={{ width: "280px", height: "277px" }}
-                  src={javascript}
-                  alt="javascript"
+                  src={xcode}
+                  alt="Xcode"
                 />
-                <p>JavaScript</p>
+                <p>Xcode</p>
               </div>
               <div style={{ backgroundColor: "black" }}>
                 <img
                   style={{ width: "280px", height: "277px" }}
-                  src={html}
-                  alt="html"
+                  src={figma}
+                  alt="figma"
                 />
-                <p>HTML</p>
+                <p>Figma</p>
               </div>
               <div style={{ backgroundColor: "black" }}>
                 <img
                   style={{ width: "280px", height: "277px" }}
-                  src={css}
-                  alt="css"
+                  src={imovie}
+                  alt="iMovie"
                 />
-                <p>CSS</p>
+                <p>iMovie</p>
               </div>
             </Cube>
           </div>
