@@ -40,6 +40,14 @@ export const navLinks = [
     title: 'Projects',
   },
   {
+    id: 'tech',
+    title: 'Skills',
+  },
+  {
+    id: 'experience',
+    title: 'Experience',
+  },
+  {
     id: 'contact',
     title: 'Contact',
   },
@@ -64,95 +72,101 @@ const services = [
   },
 ];
 
-const technologies = [
-  {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
-    name: 'JavaScript',
-    icon: javascript,
-  },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
-    name: 'React JS',
-    icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+const experiences = [
+  [
+    // Timeline 1 (Education)
+    {
+      title: 'SST-NP IDP (Integrated Diploma Programme) Student',
+      company_name: 'School of Science and Technology, Singapore',
+      icon: dcc, // Replace with the appropriate icon
+      iconBg: '#333333',
+      date: 'January 2023- December 2024',
+      type: 'education',
+    },
+    {
+      title: 'Student',
+      company_name: 'School of Science and Technology, Singapore',
+      icon: dcc, // Replace with the appropriate icon
+      iconBg: '#333333',
+      date: 'January 2021- December 2024',
+      type: 'education',
+    },
+    {
+      title: 'Student',
+      company_name: "St Anthony's Primary School",
+      icon: dcc, // Replace with the appropriate icon
+      iconBg: '#333333',
+      date: 'January 2015- December 2020',
+      type: 'education',
+    },
+  ],
+  [
+    // Timeline 2 (Experience)
+    {
+      title: 'Intern',
+      company_name: 'Bioinformatics Institute, A*STAR',
+      icon: coverhunt,
+      iconBg: '#333333',
+      date: 'November 2023 - Current',
+      type: 'experience',
+    },
+    {
+      title: 'UX Design Specialist',
+      company_name: 'GrowCalth',
+      icon: coverhunt,
+      iconBg: '#333333',
+      date: 'January 2024 - Current',
+      type: 'experience',
+    },
+    {
+      title: 'Chief Technology Officer',
+      company_name: 'GrowCalth',
+      icon: coverhunt,
+      iconBg: '#333333',
+      date: 'June 2022 - January 2024',
+      type: 'experience',
+    },
+    {
+      title: 'Employee',
+      company_name: 'SST Inc',
+      icon: coverhunt,
+      iconBg: '#333333',
+      date: 'Aug 2021 - Feb 2022',
+      type: 'experience',
+    },
+    // ... other work experiences
+  ],
+  [
+    // Timeline 3 (Service Learning)
+    {
+      title: 'Volunteer',
+      company_name: 'Willing Hearts',
+      icon: microverse,
+      iconBg: '#333333',
+      date: 'March 2024',
+      type: 'service learning',
+    },
+    {
+      title: 'Community Engagement Seniors Visit',
+      company_name: 'Heartware Network',
+      icon: microverse,
+      iconBg: '#333333',
+      date: 'August 2022 - October 2022 and October 2023',
+      type: 'service learning',
+    },
+    {
+      title: 'Beach Cleanup',
+      company_name: 'East Coast Park',
+      icon: microverse,
+      iconBg: '#333333',
+      date: 'March 2023',
+      type: 'service learning',
+    },
+    // ... other service learning experiences
+  ],
 ];
 
-const experiences = [
-  {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
-];
+
 
 const projects = [
   {
@@ -269,4 +283,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, experiences, projects };

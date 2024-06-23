@@ -35,7 +35,7 @@ const Navbar = () => {
               className={`${
                 active === nav.title ? 'text-slate-50' : 'text-slate-300'
               } hover:text-taupe text-[21px] font-
-                uppercase tracking-[3px] cursor-pointer nav-links`}
+                uppercase tracking-[1px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}>
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>

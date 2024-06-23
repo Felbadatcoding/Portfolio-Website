@@ -10,7 +10,9 @@ const Tech = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubTextLight}>My skills</p>
+        <p className={`${styles.sectionSubText}`}>
+          What languages and software do I use?
+        </p>
         <h2 className={styles.sectionHeadTextLight}>Use your cursor to turn the cubes around!</h2>
       </motion.div>
 
@@ -36,5 +38,5 @@ const Tech = () => {
   );
 };
 
-export default SectionWrapper(Tech, '');
+export default SectionWrapper(Tech, 'tech');
 

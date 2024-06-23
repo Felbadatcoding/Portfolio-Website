@@ -30,7 +30,12 @@ const Projects = () => {
   return (
     <div className="-mt-[6rem] ">
       <motion.div variants={textVariant()}>
-        <p className="font-poppins text-[60px]">My Projects</p>
+        <p className={`${styles.sectionSubText}`}>
+          What have I done so far?
+        </p>
+        <h2 className={`${styles.sectionHeadText}`}>
+          My Projects
+        </h2>
       </motion.div>
 
       <motion.p
