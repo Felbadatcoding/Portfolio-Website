@@ -4,7 +4,7 @@ import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 const Contact = () => {
   return (
     <div id="contact" className="flex flex-col items-center pt-24">
-      <h2 className="text-3xl font-bold mb-20 text-black">Contact me here!</h2>
+      <h2 className="text-5xl font-poppins mb-20 text-black">Contact me here!</h2>
 
       <div className="flex gap-8 items-center mb-20">
         {/* GitHub */}

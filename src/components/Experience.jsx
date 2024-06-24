@@ -7,20 +7,19 @@ import { textVariant } from '../utils/motion';
 import 'react-vertical-timeline-component/style.min.css';
 
 const Experience = () => {
-  const [type, setType] = useState(null); // Updated initial state to null
+  const [type, setType] = useState(null);
 
-  // Selecting the first type by default
   const defaultType = experiences.length > 0 ? experiences[0][0].type : null;
   const [currentType, setCurrentType] = useState(defaultType);
 
   const filteredExperiences = experiences.filter((timeline) => {
-    if (!type && !currentType) return false; // Return false if both type and currentType are null
+    if (!type && !currentType) return false;
     if (type === 'all') return true;
     return timeline.some((experience) => experience.type === (type || currentType));
   });
 
   return (
-    <div id="experience">
+    <div id="experience" className="pt-0 pb-0">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText2} sm:pl-16 pl-[2rem]`}>
           What have I experienced?
@@ -33,16 +32,16 @@ const Experience = () => {
       <div className="pt-8 ml-20">
         <ul className="flex">
           <li
-            className={`mr-4 cursor-pointer ${currentType === 'education' ? 'text-white duration-100' : 'text-gray-800 hover:scale-105 duration-100'}`}
-            onClick={() => { setType(null); setCurrentType('education'); }}
-          >
-            Education
-          </li>
-          <li
             className={`mr-4 cursor-pointer ${currentType === 'experience' ? 'text-white duration-100' : 'text-gray-800 hover:scale-105 duration-100'}`}
             onClick={() => { setType(null); setCurrentType('experience'); }}
           >
             Work
+          </li>
+          <li
+            className={`mr-4 cursor-pointer ${currentType === 'education' ? 'text-white duration-100' : 'text-gray-800 hover:scale-105 duration-100'}`}
+            onClick={() => { setType(null); setCurrentType('education'); }}
+          >
+            Education
           </li>
           <li
             className={`mr-4 cursor-pointer ${currentType === 'service learning' ? 'text-white duration-100' : 'text-gray-800 hover:scale-105 duration-100'}`}
@@ -88,15 +87,10 @@ const Experience = () => {
                     <h3 className="text-jetLight text-[24px] font-bold">
                       {experience.title}
                     </h3>
-                    <p
-                      className="text-slate-500 text-[22px]"
-                      style={{ margin: 0 }}
-                    >
+                    <p className="text-slate-500 text-[22px]" style={{ margin: 0 }}>
                       {experience.company_name}
                     </p>
-                    <p
-                      className="text-slate-700 text-[22px] mt: 10px"
-                    >
+                    <p className="text-slate-700 text-[22px] mt-10px">
                       {experience.desc}
                     </p>
                   </div>
@@ -111,7 +105,6 @@ const Experience = () => {
 };
 
 export default Experience;
-
 
 
 

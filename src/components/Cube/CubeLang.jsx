@@ -71,3 +71,4 @@ class LogoCubeLang extends React.Component {
   }
 }
 export default LogoCubeLang;
+
