@@ -7,11 +7,16 @@ import { textVariant } from '../utils/motion';
 import 'react-vertical-timeline-component/style.min.css';
 
 const Experience = () => {
-  const [type, setType] = useState('all');
+  const [type, setType] = useState(null); // Updated initial state to null
+
+  // Selecting the first type by default
+  const defaultType = experiences.length > 0 ? experiences[0][0].type : null;
+  const [currentType, setCurrentType] = useState(defaultType);
 
   const filteredExperiences = experiences.filter((timeline) => {
+    if (!type && !currentType) return false; // Return false if both type and currentType are null
     if (type === 'all') return true;
-    return timeline.some((experience) => experience.type === type);
+    return timeline.some((experience) => experience.type === (type || currentType));
   });
 
   return (
@@ -28,22 +33,28 @@ const Experience = () => {
       <div className="pt-8 ml-20">
         <ul className="flex">
           <li
-            className={`mr-4 cursor-pointer ${type === 'education' ? 'text-white duration-100' : 'text-gray-800 hover:scale-105 duration-100'}`}
-            onClick={() => setType('education')}
+            className={`mr-4 cursor-pointer ${currentType === 'education' ? 'text-white duration-100' : 'text-gray-800 hover:scale-105 duration-100'}`}
+            onClick={() => { setType(null); setCurrentType('education'); }}
           >
             Education
           </li>
           <li
-            className={`mr-4 cursor-pointer ${type === 'experience' ? 'text-white duration-100' : 'text-gray-800 hover:scale-105 duration-100'}`}
-            onClick={() => setType('experience')}
+            className={`mr-4 cursor-pointer ${currentType === 'experience' ? 'text-white duration-100' : 'text-gray-800 hover:scale-105 duration-100'}`}
+            onClick={() => { setType(null); setCurrentType('experience'); }}
           >
             Work
           </li>
           <li
-            className={`mr-4 cursor-pointer ${type === 'service learning' ? 'text-white duration-100' : 'text-gray-800 hover:scale-105 duration-100'}`}
-            onClick={() => setType('service learning')}
+            className={`mr-4 cursor-pointer ${currentType === 'service learning' ? 'text-white duration-100' : 'text-gray-800 hover:scale-105 duration-100'}`}
+            onClick={() => { setType(null); setCurrentType('service learning'); }}
           >
             Service Learning
+          </li>
+          <li
+            className={`mr-4 cursor-pointer ${currentType === 'ole' ? 'text-white duration-100' : 'text-gray-800 hover:scale-105 duration-100'}`}
+            onClick={() => { setType(null); setCurrentType('ole'); }}
+          >
+            Overseas Learning Experiences
           </li>
         </ul>
       </div>
@@ -72,15 +83,6 @@ const Experience = () => {
                     </div>
                   }
                   iconStyle={{ background: experience.iconBg }}
-                  icon={
-                    <div className="flex justify-center items-center w-full h-full">
-                      <img
-                        src={experience.icon}
-                        alt={experience.company_name}
-                        className="w-[60%] h-[60%] object-contain"
-                      />
-                    </div>
-                  }
                 >
                   <div>
                     <h3 className="text-jetLight text-[24px] font-bold">
@@ -104,7 +106,6 @@ const Experience = () => {
 };
 
 export default Experience;
-
 
 
 

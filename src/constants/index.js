@@ -92,6 +92,14 @@ const experiences = [
       type: 'education',
     },
     {
+      title: 'Swift Accelerator Programme Student',
+      company_name: 'Apple',
+      icon: dcc, // Replace with the appropriate icon
+      iconBg: '#333333',
+      date: 'January 2023- December 2024',
+      type: 'education',
+    },
+    {
       title: 'Student',
       company_name: "St Anthony's Primary School",
       icon: dcc, // Replace with the appropriate icon
@@ -163,6 +171,25 @@ const experiences = [
       type: 'service learning',
     },
     // ... other service learning experiences
+  ],
+  [
+    // Timeline 1 (Education)
+    {
+      title: 'Jakarta SSTxBBS Exchange Trip',
+      company_name: 'In my trip to Jakarta, I managed to collaborate with students from Bina Bangsa School, allowing me to make use of Arduino technologies to learn more about the air quality in different parts of the school. Furthermore, when visiting industrial partners such as Charged Indonesia and Gojek, I managed to learn about the future of sustainability in industries such as food delivery and transport. I also managed to have a deeper appreciation for my own culture as I learnt more about Indonesia.',
+      icon: dcc, // Replace with the appropriate icon
+      iconBg: '#333333',
+      date: 'November 2023',
+      type: 'ole',
+    },
+    {
+      title: 'San Fransisco OLE',
+      company_name: 'As one of the founders of GrowCalth, SSTInc gave us the opportunity to take a learning trip to San Fransisco. Visiting companies and attending events in the Bay Area and Silicon Valley, such as Apple, Block, DeveloperWeek and so on, I managed to learn the many aspects of creating a successful company, such as startup incubation, essential values needed and networking. Furthermore, I visited musems and Institutions such as Stanford, UC Berkeley, Intel Museum and so on, allowing me to understand university life in San Francisco, and the key idea of using resources wisely and learning from others mistakes to make a better product that benefits society.',
+      icon: dcc, // Replace with the appropriate icon
+      iconBg: '#333333',
+      date: 'February 2023',
+      type: 'ole',
+    },
   ],
 ];
 

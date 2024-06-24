@@ -45,7 +45,7 @@ const Projects = () => {
         applications <b>GiftDuck</b> and <b>GrowCalth</b>. </p><br />
         <p>Furthermore, I have done multiple <b>projects and hacakthons</b> in school, 
         demonstrating my <b>leadership</b> and
-        <b>cooperative</b> capabilities, and my <b>creative</b> and <b>logical thinking</b>.</p><br />
+        <b> cooperative </b> capabilities, and my <b>creative</b> and <b>logical thinking</b>.</p><br />
         <p>Learn more about them by clicking the button below!</p>
       </motion.p>
 
@@ -59,4 +59,3 @@ const Projects = () => {
 };
 
 export default SectionWrapper(Projects, 'projects');
-
