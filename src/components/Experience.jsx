@@ -68,7 +68,7 @@ const Experience = () => {
                   key={`${index}-${expIndex}`}
                   contentStyle={{
                     background: '#eaeaec',
-                    color: '#292929',
+                    color: '#999999',
                     boxShadow:
                       'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
                   }}
@@ -77,7 +77,7 @@ const Experience = () => {
                   }}
                   date={
                     <div>
-                      <h3 className="text-stone-950 text-[18px] font-bold font-poppins">
+                      <h3 className="text-white text-[18px] font-bold font-poppins">
                         {experience.date}
                       </h3>
                     </div>
@@ -89,10 +89,15 @@ const Experience = () => {
                       {experience.title}
                     </h3>
                     <p
-                      className="text-slate-700 text-[22px]"
+                      className="text-slate-500 text-[22px]"
                       style={{ margin: 0 }}
                     >
                       {experience.company_name}
+                    </p>
+                    <p
+                      className="text-slate-700 text-[22px] mt: 10px"
+                    >
+                      {experience.desc}
                     </p>
                   </div>
                 </VerticalTimelineElement>

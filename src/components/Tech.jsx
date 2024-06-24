@@ -13,7 +13,7 @@ const Tech = () => {
         <p className={`${styles.sectionSubText}`}>
           What languages and software do I use?
         </p>
-        <h2 className={styles.sectionHeadTextLight}>Use your cursor to turn the cubes around!</h2>
+        <h2 className={styles.sectionHeadTextLight}>Use your cursor to drag the cubes around!</h2>
       </motion.div>
 
       <div className="flex justify-center mt-36">
