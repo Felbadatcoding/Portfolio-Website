@@ -67,7 +67,7 @@ const projects = [
     award: 'Produced for my learning and portfolio.',
     image: portfolio,
     description: 'I created this website using React, CSS, HTML and Tailwind CSS and deployed with Vercel. The website is originally made from a Portfolio Template and was heavily modified to serve my needs and preferrences.',
-    github: 'https://github.com/yourusername/portfolio',
+    github: 'https://github.com/Felbadatcoding/Portfolio-Website',
   },
 ];
 const Projects = () => {
