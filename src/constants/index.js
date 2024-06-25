@@ -28,7 +28,7 @@ const experiences = [
       company_name: 'School of Science and Technology, Singapore',
       desc: "I am a part of the first batch of IDP students, which gave me many opportunities, such as working with and visiting SST's industry partners, learning about technopreneurship and participating in hackathons.",
       iconBg: '#333333',
-      date: 'January 2023- December 2024',
+      date: 'January 2023 – December 2024',
       type: 'education',
     },
     {
@@ -36,7 +36,7 @@ const experiences = [
       company_name: 'School of Science and Technology, Singapore',
       desc: "I joined SST Inc, a talent development programme and startup incubator. I also took Computing+ as an applied subject.",
       iconBg: '#333333',
-      date: 'January 2021 - December 2024',
+      date: 'January 2021 – December 2024',
       type: 'education',
     },
     {
@@ -44,7 +44,7 @@ const experiences = [
       company_name: 'Apple',
       desc: "I attended a programme launched by Apple and IMDA called the Swift Accelerator Programme, an intensive talent development programme for secondary school students with an interest and aptitude for app development and computational thinking over 8 months, and achieved certification in Swift. I developed the app GiftHub with my teammates here.",
       iconBg: '#333333',
-      date: 'January 2023 - December 2024',
+      date: 'January 2023 – December 2024',
       type: 'education',
     },
     {
@@ -52,7 +52,7 @@ const experiences = [
       company_name: "St Anthony's Primary School",
       desc: "Studied for 6 years for Primary School, graduated with a T-score of 242, an A* in math, and 3As in Science, English and Chinese.",
       iconBg: '#333333',
-      date: 'January 2015 - December 2020',
+      date: 'January 2015 – December 2020',
       type: 'education',
     },
   ],
@@ -62,7 +62,7 @@ const experiences = [
       company_name: 'Bioinformatics Institute, A*STAR',
       desc: "Me and my 3 other teammates are differentiating between Medical Conditions with AI developed in conjunction with A*STAR and SGH along 3 other teammates, to mitigate risk of misdiagnosis of medical issues using Sklearn, TensorFlow in Python.",
       iconBg: '#333333',
-      date: 'November 2023 - Current',
+      date: 'November 2023 – Current',
       type: 'experience',
     },
     {
@@ -70,7 +70,7 @@ const experiences = [
       company_name: 'GrowCalth',
       desc: "",
       iconBg: '#333333',
-      date: 'January 2024 - Current',
+      date: 'January 2024 – Current',
       type: 'experience',
     },
     {
@@ -78,7 +78,7 @@ const experiences = [
       company_name: 'GrowCalth',
       desc: "",
       iconBg: '#333333',
-      date: 'June 2022 - January 2024',
+      date: 'June 2022 – January 2024',
       type: 'experience',
     },
     {
@@ -86,7 +86,7 @@ const experiences = [
       company_name: 'SST Inc',
       desc: "I learnt how to code the languages React Native and Swift. I also learnt Android Studios and Java. SST Inc also helped to incubate my company, GrowCalth.",
       iconBg: '#333333',
-      date: 'June 2021 - August 2023',
+      date: 'June 2021 – August 2023',
       type: 'experience',
     },
   ],
@@ -104,7 +104,7 @@ const experiences = [
       company_name: 'Heartware Network',
       desc: "As an ACE Leader, we did multiple visitations to elderly in the Tiong Bahru area. I visited homes of seniors and befriended and talked to them so they would feel slightly less lonely. In 2023, as part of the IDP programme, I also participated in the same programme run by Heartware Network.",
       iconBg: '#333333',
-      date: 'August 2022 - October 2022 and October 2023',
+      date: 'August 2022 – October 2022 and October 2023',
       type: 'service learning',
     },
     {

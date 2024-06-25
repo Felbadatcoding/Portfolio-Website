@@ -19,7 +19,7 @@ const About = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-10 text-slate-50 text-[20px] max-w-3xl leading-[40px]"
         >
-          I am a <span className="text-purple-300"><b>16 year old </b></span>
+          I am a <span className="text-purple-300"><b>16-year-old </b></span>
           student at the <span className="text-purple-300"><b>School of Science and Technology</b></span>, and
           I study <span className="text-purple-300"><b>Computing+</b></span>. I am currently in the <span className="text-orange-300"><b>Integrated Diploma Programme</b></span>, and 
           I am an <span className="text-orange-300"><b>Intern at A*STAR Bioinformatics Institute</b></span> as part of a Capstone Project.

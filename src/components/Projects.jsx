@@ -52,7 +52,7 @@ const projects = [
     title: 'Computer-Vision Virtual Photobooth',
     award: 'Produced for Coursework Project',
     image: cvbooth,
-    description: "Me and my teammate produced a virtual photobooth with Computer Vision in the context of SST's 15 Year Anniversary.",
+    description: "Me and my teammate produced a virtual photobooth with OpenCV in Python in the context of SST's 15 Year Anniversary.",
     github: 'https://github.com/corzolonegatigo/Virtual-Photo-Booth',
   },
   {
@@ -176,3 +176,4 @@ const Projects = () => {
 };
 
 export default SectionWrapper(Projects, 'projects');
+
