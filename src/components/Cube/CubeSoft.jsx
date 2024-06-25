@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './Cube.css'
 import Cube from 'react-3d-cube';
-import { figma, git, excel, vsc, imovie, css, xcode} from '../../assets';
+import { figma, git, excel, vsc, imovie, xcode} from '../../assets';
  
 class LogoCubeSoft extends React.Component {
   render() {

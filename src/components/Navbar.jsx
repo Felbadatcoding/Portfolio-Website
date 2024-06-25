@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo} from '../assets';
+import {logo} from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -28,7 +28,7 @@ const Navbar = () => {
 
           <h1 className="text-3xl">Felix Forbes Dimjati</h1>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
+        <ul className="list-none hidden sm:flex flex-row gap-12 mt-2">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
