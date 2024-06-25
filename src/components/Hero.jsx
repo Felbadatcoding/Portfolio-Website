@@ -44,7 +44,7 @@ const Hero = () => {
               It's&nbsp;Felix.
             </span>
           </h1>
-            <p className={`mt-10 mr-10 text-green-300 text-right`}>
+            <p className={`mt-2 mr-10 text-green-300 text-right`}>
               <span style={{ fontSize: '40px'}}>Inquisitive Technologist,</span><br />
               <span style={{ fontSize: '40px'}}>Creative Innovator,</span><br />
               <span style={{ fontSize: '40px'}}>Critical Thinker.</span><br />
