@@ -26,7 +26,7 @@ const projects = [
     title: 'Scout',
     award: 'SST-SMU IDP Technopreuship Hackathon Best Business Plan Award',
     image: scout,
-    description: 'We participated in the SST-SMU IDP Technopreuship Hackathon, where we were given 3 problem statments. We conceptualised Scout, a website(with a wireframe) to connect young technopreneurs with lack of access to resources and mentors with a platform to engage with mentors and get access to the resources they need. We won the Best Business Plan for having the best all rounded plan.',
+    description: 'We participated in the SST-SMU IDP Technopreuship Hackathon, where we were given 3 problem statements. We conceptualised Scout, a website (with a wireframe) to connect young technopreneurs with lack of access to resources and mentors with a platform to engage with mentors and get access to the resources they need. We won the Best Business Plan for having the best all rounded plan.',
   },
   {
     title: 'Speech to Text Box',
@@ -38,7 +38,7 @@ const projects = [
     title: 'GiftDuck',
     award: 'Produced in Swift Accelerator Programme',
     image: gifthub,
-    description: 'GiftDuck is an app for remembering Birthdays through reminders, storing potential gift ideas for friends and having sections for reccomended gifts. The app was produced in the Swift Accelerator Programme in 2022, and is available on the iOS App Store.',
+    description: 'GiftDuck is an app for remembering Birthdays through reminders, storing potential gift ideas for friends and having sections for recommended gifts. The app was produced in the Swift Accelerator Programme in 2022, and is available on the iOS App Store.',
     ios: 'https://apps.apple.com/us/app/giftduck/id6444735527',
   },
   {
@@ -66,7 +66,7 @@ const projects = [
     title: 'Portfolio Website',
     award: 'Produced for my learning and portfolio.',
     image: portfolio,
-    description: 'I created this website using React, CSS, HTML and Tailwind CSS and deployed with Vercel. The website is originally made from a Portfolio Template and was heavily modified to serve my needs and preferrences.',
+    description: 'I created this website using React, CSS, HTML and Tailwind CSS and deployed with Vercel. The website is originally made from a Portfolio Template and was heavily modified to serve my needs and preferences.',
     github: 'https://github.com/Felbadatcoding/Portfolio-Website',
   },
 ];
